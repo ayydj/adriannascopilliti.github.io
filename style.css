@@ -1,0 +1,42 @@
+* {box-sizing: border-box;
+}
+ 
+body{
+    
+background-color: lightgrey;
+  width: 300px;
+  border: 15px double purple;
+  padding: 50px;
+  margin: 20px;
+}
+
+.skills { background-color: dimgray;
+        color: darkgrey;
+        font-family: monospace;
+        text-align: left;     
+}
+
+h1{
+    color: gray;
+    margin-left: 20px;
+}
+.experience{
+    text-align: justify;
+}
+
+
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    background-color: whitesmoke;
+    width: 90%;
+    margin: auto;
+}
+.contact {
+    text-align: right;
+    background-color: dimgray;
+}
