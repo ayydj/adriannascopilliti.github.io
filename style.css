@@ -2,6 +2,14 @@
 }
  
 body{
+
+     #myPhoto2{
+        position: fixed;
+        right:0;
+        bottom:0;
+        display: none;
+      }
+    
     
 background-color: lightgrey;
   width: 300px;

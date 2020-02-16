@@ -8,13 +8,15 @@
 	</head>
 
 	<body>
-    <img src="https://scontent.fbos1-2.fna.fbcdn.net/v/t31.0-8/12657845_10153797774021544_5584447220673223354_o.jpg?_nc_cat=109&_nc_oc=AQkJKMKHM3rHlddRZxgFaaVJXN33MhmpdMs3OS6PptrqEGvIn02OVZbGayiSixibivs&_nc_ht=scontent.fbos1-2.fna&oh=45caf0b37d9ff98079a95edb698a2ee6&oe=5E8ED4E9" alt="Portrait" style="float:right;width:110px;height:120px;">
+    <img id="myPhoto" src="https://scontent.fbos1-2.fna.fbcdn.net/v/t31.0-8/12657845_10153797774021544_5584447220673223354_o.jpg?_nc_cat=109&_nc_oc=AQkJKMKHM3rHlddRZxgFaaVJXN33MhmpdMs3OS6PptrqEGvIn02OVZbGayiSixibivs&_nc_ht=scontent.fbos1-2.fna&oh=45caf0b37d9ff98079a95edb698a2ee6&oe=5E8ED4E9" alt="Portrait" style="float:right;width:110px;height:120px;">
+        
+    <img id="myPhoto2" src="https://scontent-bos3-1.xx.fbcdn.net/v/t1.0-9/72441493_10221063807891838_8260028395828543488_n.jpg?_nc_cat=101&_nc_oc=AQlcgJuLlzhlT54Ua5wR87g2zZj5DPSXfwQJ1X9JjjmX9GOXjRA4bxe7wDggQdmVBws&_nc_ht=scontent-bos3-1.xx&oh=c0d8b52875fd81da21539114c77afbfa&oe=5EFD2C0F">
         <header>
-		<h1> Adrianna Scopilliti </h1>
+		<h1 id = 'myName'> Adrianna Scopilliti </h1>
 	
          </header>
         
-        <section class = "contact">
+        <section class = "contact" id = "contactInfo">
            <h3>Contact</h3>
                 360 Pendar Rd Unit B 
             <br>
@@ -96,5 +98,26 @@
                 <li>Coordinate website and social media management reports.</li>
             </ul>
             </section>
+        
+        
+        
+        <script>
+        
+             var myPhoto = document.getElementById("myPhoto"),
+          myPhoto2 = document.getElementById("myPhoto2");
+
+            myPhoto.onmouseover = function(){
+            myPhoto2.style.display = "block";
+            }
+
+            myPhoto.onmouseout = function(){
+            myPhoto2.style.display = "none";
+      }
+        
+            
+        window.alert('Mouse over my photo!!')    
+            
+        </script>
+           
     </body>
 </html>
